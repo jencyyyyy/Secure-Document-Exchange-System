@@ -64,7 +64,7 @@ python3 seg_receiver.py
 ### Send Signed Document (in another terminal)
 
 ```bash
-python3 seg_sender.py
+python3 seg_sender.py <filename.xml>
 ```
 * Includes current UTC timestamp in `<TimestampForSignature>`.
 
